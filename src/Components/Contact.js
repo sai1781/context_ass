@@ -4,7 +4,7 @@ import contextTheme from "../Context"
 
 
 const Contact = () => {
-  const { light, changeTheme } = useContext(contextTheme);
+  const { light} = useContext(contextTheme);
 
   const Data = [
     {
